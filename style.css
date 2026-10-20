@@ -162,7 +162,6 @@ body {
     font-weight: 600;
     display: inline-flex;
     align-items: center;
-    gap: 0.3rem;
 }
 
 .link-proyecto:hover {
@@ -198,7 +197,6 @@ body {
     transition: var(--transicion);
     display: inline-flex;
     align-items: center;
-    gap: 0.5rem;
 }
 
 .btn-linkedin {
@@ -246,9 +244,5 @@ body {
 
     .contenido-principal {
         padding-top: 2rem;
-    }
-
-    .grid-proyectos {
-        grid-template-columns: 1fr;
     }
 }
