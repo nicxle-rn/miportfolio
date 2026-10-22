@@ -38,14 +38,6 @@
         border-bottom: 2px solid var(--lila-claro);
       }
 
-      .logo-brand {
-        font-size: 1.5rem;
-        font-weight: 700;
-        color: var(--texto-principal);
-        text-decoration: none;
-        letter-spacing: -0.5px;
-      }
-
       .navegacion ul {
         display: flex;
         list-style: none;
@@ -72,6 +64,26 @@
         padding: 3rem 0;
       }
 
+      .intro-principal {
+        padding-top: 6rem;
+        padding-bottom: 6rem;
+        text-align: center;
+      }
+
+      .intro-principal h1 {
+        font-size: 2.75rem;
+        color: var(--texto-principal);
+        margin-bottom: 0.5rem;
+        letter-spacing: -0.5px;
+      }
+
+      .intro-principal h2 {
+        font-size: 1.3rem;
+        color: #6a4c93;
+        font-weight: 600;
+        margin-bottom: 1.25rem;
+      }
+
       .seccion {
         margin-bottom: 4rem;
       }
@@ -81,20 +93,8 @@
         max-width: 700px;
         margin-left: auto;
         margin-right: auto;
-      }
-
-      .seccion-presentacion h1 {
-        font-size: 2.75rem;
-        color: var(--texto-principal);
-        margin-bottom: 0.5rem;
-        letter-spacing: -0.5px;
-      }
-
-      .seccion-presentacion h2 {
-        font-size: 1.3rem;
-        color: #6a4c93;
-        font-weight: 600;
-        margin-bottom: 1.25rem;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
       }
 
       .seccion-presentacion p {
