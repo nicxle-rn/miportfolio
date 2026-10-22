@@ -9,13 +9,18 @@
     />
     <meta name="author" content="Lourdes Guzmán" />
     <title>Lourdes Guzmán | Desarrollo web y portfolio</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
     <header class="encabezado">
-      <img src="/images.doc/arandanos-png.webp" width="40" height="40" alt="Logo de arándanos" class="logo-brand">
+      <img
+        src="/images.doc/arandanos-png.webp"
+        width="40"
+        height="40"
+        alt="Logo de arándanos"
+        class="logo-brand"
+      />
       <nav class="navegacion" aria-label="Navegación principal">
         <ul>
           <li><a href="#sobre-mi">Sobre mí</a></li>
@@ -27,12 +32,21 @@
 
     <main class="contenido-principal">
       <section class="intro-principal">
-        <img
-          src="/images.doc/yo-image.jpeg"
-          alt="Foto de perfil de Lourdes Guzmán" 
-          width="200" height="250">
-        <h1 id="titulo-presentacion">Lourdes Guzmán</h1>
-        <h2>Desarrollo &amp; Programación Web</h2>
+        <div class="parent">
+          <div class="contenedor-1">
+            <img
+              src="/images.doc/yo-image.jpeg"
+              alt="Foto de perfil de Lourdes Guzmán"
+              width="200"
+              height="250"
+              class="foto-perfil"
+            />
+          </div>
+          <div class="contenedor-2">
+            <h1 id="titulo-presentacion">Lourdes Guzmán</h1>
+            <h2>Desarrollo &amp; Programación Web</h2>
+          </div>
+        </div>
       </section>
 
       <section
@@ -46,12 +60,13 @@
           construir interfaces minimalistas, accesibles y de alto rendimiento
           utilizando siempre las mejores herramientas para cada proyecto.
         </p>
-          <img
-            src="/images.doc/herramientas-prog.png"
-            alt="Herramientas de programación web: HTML, CSS, JavaScript y Bootstrap"
-            class="foto-herramientas" width="150" height="150"
-          />
-
+        <img
+          src="/images.doc/herramientas-prog.png"
+          alt="Herramientas de programación web: HTML, CSS, JavaScript y Bootstrap"
+          class="foto-herramientas"
+          width="150"
+          height="150"
+        />
       </section>
 
       <section
@@ -65,8 +80,7 @@
             <div>
               <h3>Página de Receta</h3>
               <p>
-                Una página de receta, responsive y con links
-                de contacto.
+                Una página de receta, responsive y con links de contacto.
               </p>
               <div class="tags">
                 <span class="tag">HTML</span>
@@ -113,8 +127,8 @@
       >
         <h2 id="titulo-contacto">Hablemos</h2>
         <p class="contacto-intro">
-          ¿Tienes una idea o proyecto en mente para que trabajemos? Conéctate conmigo a través de
-          cualquiera de estos canales:
+          ¿Tienes una idea o proyecto en mente para que trabajemos? Conéctate
+          conmigo a través de cualquiera de estos canales:
         </p>
         <div class="enlaces-contacto">
           <a
@@ -145,6 +159,5 @@
     <footer class="pie-pagina">
       <p>&copy; 2026 Lourdes Guzmán. Todos los derechos reservados.</p>
     </footer>
-
   </body>
 </html>
